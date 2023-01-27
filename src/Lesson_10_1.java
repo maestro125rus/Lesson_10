@@ -12,10 +12,10 @@ public class Lesson_10_1 {
     public static final String VERTICAL_LINE = "||";
     public static final char ANGLE_SYMBOL = 0x20;
     public static final char RECTANGLE_INSIDE_SPACE_SYMBOL = 0x20;
-    //public static final int KEYBOARD_INPUT = ;
 
 
     public static void main(String[] args) {
+
             Scanner scanner = new Scanner(System.in);
 
             int length = requireInt(scanner, "Enter rectangle's length: ");
