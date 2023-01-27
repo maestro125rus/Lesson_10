@@ -15,6 +15,7 @@ https://github.com/KFalcon2022/practical-tasks/blob/master/src/com/walking/lesso
 
 Примечание: это одна задача, а не различные варианты:)*/
 
+
 public class Lesson_10_3 {
     public static void main(String[] args) {
         System.out.print("Введите желаемое количество простых чисел: ");
