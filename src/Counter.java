@@ -1,5 +1,5 @@
 public class Counter {
-    public final String name;
+    public final String NAME;
     public int counter;
 
     public Counter(String name) {
@@ -8,7 +8,7 @@ public class Counter {
 
     public Counter(String name, int counter) {
         this.counter = counter;
-        this.name = name;
+        this.NAME = name;
     }
 
     public int increase(int value) {

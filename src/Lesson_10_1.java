@@ -1,10 +1,10 @@
 import java.util.Scanner;
-/*Используя кодовую базу из задачи
+/* +++Используя кодовую базу из задачи
 https://github.com/KFalcon2022/practical-tasks/blob/master/src/com/walking/lesson6_methods/Task3.java
 вынести строковые и символьные литералы в константы. Попробуйте нарисовать прямоугольник,
 используя "==" для каждой единицы длины и "||" – для каждой единицы ширины.
 
-Также попробуйте записать в константу переменную scanner.
+???Также попробуйте записать в константу переменную scanner.
 Упростится ли использование сканера внутри методов чтения с клавиатуры?*/
 
 public class Lesson_10_1 {
@@ -12,6 +12,8 @@ public class Lesson_10_1 {
     public static final String VERTICAL_LINE = "||";
     public static final char ANGLE_SYMBOL = 0x20;
     public static final char RECTANGLE_INSIDE_SPACE_SYMBOL = 0x20;
+    //public static final int KEYBOARD_INPUT = ;
+
 
     public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
@@ -21,7 +23,7 @@ public class Lesson_10_1 {
 
             scanner.close();
 
-            String horizontalLine = createHorizontalLine(length);
+                String horizontalLine = createHorizontalLine(length);
             String verticalLines = createVerticalLines(length, width);
 
             printRectangle(horizontalLine, verticalLines);
