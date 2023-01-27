@@ -6,8 +6,6 @@ public class Lesson_10_1 {
     public static final char ANGLE_SYMBOL = 0x20;
     public static final char RECTANGLE_INSIDE_SPACE_SYMBOL = 0x20;
 
-
-
     public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 
